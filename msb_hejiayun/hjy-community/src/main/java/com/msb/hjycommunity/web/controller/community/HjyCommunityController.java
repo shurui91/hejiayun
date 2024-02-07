@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * 小区 Controller
+ */
 @RestController
 @Slf4j
 @RequestMapping("/community")
@@ -37,6 +40,7 @@ public class HjyCommunityController extends BaseController {
         // 使用PageHelper
         startPage();
         List<HjyCommunityDto> list = hjyCommunityService.queryList(hjyCommunity);
+        //响应数据
         return getData(list);
     }
 
