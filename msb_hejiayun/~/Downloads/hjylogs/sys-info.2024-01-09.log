@@ -1,0 +1,104 @@
+21:41:07.387 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 17.0.9 on Users-MacBook-Pro.local with PID 26348 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+21:41:07.390 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+21:41:09.095 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+21:41:09.095 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:41:09.096 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+21:41:09.208 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:41:09.667 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:41:09.978 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:41:10.015 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+21:41:10.029 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+21:41:10.032 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:42:19.920 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 17.0.9 on Users-MacBook-Pro.local with PID 26379 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+21:42:19.924 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+21:42:21.736 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+21:42:21.737 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:42:21.737 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+21:42:21.806 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:42:22.235 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:42:22.503 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:42:22.538 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+21:42:22.544 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+21:42:22.547 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:44:03.320 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 17.0.9 on Users-MacBook-Pro.local with PID 26481 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+21:44:03.323 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+21:44:04.745 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+21:44:04.746 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:44:04.746 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+21:44:04.837 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:44:05.346 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:44:05.655 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:44:05.694 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+21:44:05.708 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+21:44:05.710 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:46:15.515 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 17.0.9 on Users-MacBook-Pro.local with PID 26856 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+21:46:15.518 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+21:46:17.324 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+21:46:17.324 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:46:17.324 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+21:46:17.407 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:46:17.897 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:46:18.194 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:46:18.232 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+21:46:18.244 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+21:46:18.248 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:47:31.692 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 11.0.21 on Users-MacBook-Pro.local with PID 26903 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+21:47:31.695 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+21:47:33.146 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+21:47:33.147 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:47:33.147 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+21:47:33.231 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:47:33.660 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:47:33.976 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:47:34.021 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+21:47:34.029 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+21:47:34.031 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:51:28.856 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 11.0.21 on Users-MacBook-Pro.local with PID 27034 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+21:51:28.867 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+21:51:30.277 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+21:51:30.277 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:51:30.277 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+21:51:30.354 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:51:30.787 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:51:31.080 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:51:31.119 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+21:51:31.126 [restartedMain] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+21:51:31.128 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+21:53:04.239 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 11.0.21 on Users-MacBook-Pro.local with PID 27066 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+21:53:04.242 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+21:53:05.673 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+21:53:05.674 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:53:05.674 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+21:53:05.754 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:53:06.181 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:53:06.484 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+21:53:07.027 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8888"]
+21:53:07.068 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarted,61] - Started HjyCommunityApplication in 3.277 seconds (JVM running for 4.424)
+21:53:28.112 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+21:53:28.121 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+23:35:37.084 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 11.0.21 on Users-MacBook-Pro.local with PID 29847 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+23:35:37.087 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+23:35:38.562 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+23:35:38.563 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:35:38.563 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+23:35:38.637 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:35:39.077 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:35:39.353 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+23:35:39.850 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8888"]
+23:35:39.905 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarted,61] - Started HjyCommunityApplication in 3.337 seconds (JVM running for 4.287)
+23:35:45.492 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:38:13.834 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+23:38:13.845 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+23:38:54.290 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarting,55] - Starting HjyCommunityApplication using Java 11.0.21 on Users-MacBook-Pro.local with PID 29955 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+23:38:54.293 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+23:38:55.658 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8888"]
+23:38:55.659 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:38:55.660 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+23:38:55.725 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:38:56.147 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+23:38:56.433 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+23:38:56.924 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8888"]
+23:38:56.956 [restartedMain] INFO  c.m.h.HjyCommunityApplication - [logStarted,61] - Started HjyCommunityApplication in 3.113 seconds (JVM running for 4.086)
+23:38:59.725 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:40:09.814 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+23:40:09.826 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed

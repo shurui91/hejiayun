@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.msb.easypoi_boot.mapper.CourseMapper">
+    <!--查询所有-->
+    <select id="findAll" resultType="com.msb.easypoi_boot.entity.Course">
+        select cid,orderno,cname,brief,price from course;
+    </select>
+
+    <!-- 插入记录 -->
+    <insert id="save" parameterType="com.msb.easypoi_boot.entity.Course">
+        INSERT INTO course
+        VALUES (#{cid}, #{orderno}, #{cname}, #{brief}, #{price})
+    </insert>
+</mapper>

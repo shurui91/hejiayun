@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hjy-community/pom.xml" />
+        <option value="$PROJECT_DIR$/easy_code/pom.xml" />
+        <option value="$PROJECT_DIR$/../easypoi_boot/easypoi_boot/pom.xml" />
+        <option value="$PROJECT_DIR$/../springsecurity_example/pom.xml" />
+        <option value="$PROJECT_DIR$/../springsecurity_example2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

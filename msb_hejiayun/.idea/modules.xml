@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/easy_code.iml" filepath="$PROJECT_DIR$/easy_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../easypoi_boot/easypoi_boot/easypoi_boot.iml" filepath="$PROJECT_DIR$/../easypoi_boot/easypoi_boot/easypoi_boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hjy-community/hjy-community.iml" filepath="$PROJECT_DIR$/hjy-community/hjy-community.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb_hejiayun.iml" filepath="$PROJECT_DIR$/msb_hejiayun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springsecurity_example/springsecurity_example.iml" filepath="$PROJECT_DIR$/../springsecurity_example/springsecurity_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springsecurity_example2/springsecurity_example2.iml" filepath="$PROJECT_DIR$/../springsecurity_example2/springsecurity_example2.iml" />
+    </modules>
+  </component>
+</project>

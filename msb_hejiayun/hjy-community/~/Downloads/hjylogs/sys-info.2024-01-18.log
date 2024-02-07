@@ -1,0 +1,90 @@
+12:21:57.039 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 52234 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+12:21:57.043 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+12:21:57.058 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+12:21:58.793 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+12:21:59.396 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+12:22:01.120 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 4.636 seconds (JVM running for 6.658)
+12:22:01.713 [main] INFO  c.m.h.log.LogDemo - [test1,16] - Hello LogBack!
+12:22:01.729 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+12:22:01.745 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+14:56:09.047 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56225 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+14:56:09.053 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+14:56:09.069 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:56:10.675 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:56:11.334 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+14:56:13.472 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 4.959 seconds (JVM running for 6.494)
+14:56:14.159 [main] INFO  c.m.h.log.LogDemo - [test2,23] - 系统日志
+14:56:14.177 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+14:56:14.190 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:03:24.128 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56601 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+15:03:24.132 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+15:03:24.147 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:03:25.496 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:03:26.046 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:03:27.566 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 3.854 seconds (JVM running for 5.119)
+15:03:28.021 [main] INFO  c.m.h.log.LogDemo - [test3,37] - 系统日志
+15:03:28.034 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:03:28.046 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:05:52.221 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56665 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+15:05:52.225 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+15:05:52.242 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:05:53.916 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:05:54.527 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:05:56.164 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 4.437 seconds (JVM running for 5.787)
+15:05:56.680 [main] INFO  c.m.h.log.LogDemo - [test4,51] - hello 我是大佬
+15:05:56.695 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:05:56.706 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:06:20.560 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56683 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+15:06:20.564 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+15:06:20.572 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:06:22.435 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:06:23.265 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:06:25.072 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 5.168 seconds (JVM running for 6.71)
+15:06:25.529 [main] INFO  c.m.h.log.LogDemo - [test4,51] - hello 我是大佬
+15:06:25.547 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:06:25.566 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:08:34.607 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56754 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+15:08:34.610 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+15:08:34.620 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:08:36.094 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:08:36.704 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:08:38.802 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 4.745 seconds (JVM running for 6.247)
+15:08:39.402 [main] INFO  c.m.h.log.LogDemo - [test4,51] - hello 我是大佬
+15:08:39.422 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:08:39.435 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:08:59.273 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56766 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+15:08:59.277 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+15:08:59.284 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:09:00.792 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:09:01.287 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:09:02.980 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 4.147 seconds (JVM running for 5.315)
+15:09:03.559 [main] INFO  c.m.h.log.LogDemo - [test4,51] - hello 我是大佬
+15:09:03.580 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:09:03.600 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:11:31.095 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56864 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+15:11:31.098 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+15:11:31.115 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:11:32.469 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:11:33.160 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:11:34.683 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 4.022 seconds (JVM running for 5.243)
+15:11:35.163 [main] INFO  c.m.h.log.LogDemo - [test4,52] - hello 我是大佬
+15:11:35.180 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:11:35.190 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:12:39.354 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56913 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+15:12:39.357 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+15:12:39.366 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:12:40.917 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:12:41.596 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:12:43.500 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 4.721 seconds (JVM running for 6.287)
+15:12:43.943 [main] INFO  c.m.h.log.LogDemo - [test4,52] - hello 我是大佬
+15:12:43.964 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:12:43.975 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+15:13:19.238 [main] INFO  c.m.h.log.LogDemo - [logStarting,55] - Starting LogDemo using Java 11.0.21 on Users-MacBook-Pro.local with PID 56938 (started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community)
+15:13:19.242 [main] INFO  c.m.h.log.LogDemo - [logStartupProfileInfo,637] - The following 1 profile is active: "druid"
+15:13:19.244 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:13:20.649 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:13:21.164 [main] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+15:13:22.725 [main] INFO  c.m.h.log.LogDemo - [logStarted,61] - Started LogDemo in 3.95 seconds (JVM running for 5.152)
+15:13:23.286 [main] INFO  c.m.h.log.LogDemo - [test4,52] - hello 我是大佬
+15:13:23.317 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+15:13:23.330 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed

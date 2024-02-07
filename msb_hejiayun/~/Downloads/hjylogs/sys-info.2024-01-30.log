@@ -1,0 +1,15 @@
+[31m2024-01-30 10:31:34[0;39m [34mINFO [0;39m [31m[background-preinit][0;39m [1;35morg.hibernate.validator.internal.util.Version[0;39m [36mHV000001: Hibernate Validator 6.2.5.Final
+[0;39m[31m2024-01-30 10:31:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcom.msb.hjycommunity.HjyCommunityApplication[0;39m [36mStarting HjyCommunityApplication using Java 11.0.21 on Users-MacBook-Pro.local with PID 62296 (/Users/user/Downloads/msb_hejiayun/msb_hejiayun/hjy-community/target/classes started by user in /Users/user/Downloads/msb_hejiayun/msb_hejiayun)
+[0;39m[31m2024-01-30 10:31:34[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcom.msb.hjycommunity.HjyCommunityApplication[0;39m [36mThe following 1 profile is active: "druid"
+[0;39m[31m2024-01-30 10:31:36[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mInitializing ProtocolHandler ["http-nio-8888"]
+[0;39m[31m2024-01-30 10:31:36[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardService[0;39m [36mStarting service [Tomcat]
+[0;39m[31m2024-01-30 10:31:36[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m [36mStarting Servlet engine: [Apache Tomcat/9.0.71]
+[0;39m[31m2024-01-30 10:31:36[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/hejiayun][0;39m [36mInitializing Spring embedded WebApplicationContext
+[0;39m[31m2024-01-30 10:31:36[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [36mInit DruidDataSource
+[0;39m[31m2024-01-30 10:31:36[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcom.alibaba.druid.pool.DruidDataSource[0;39m [36m{dataSource-1} inited
+[0;39m[31m2024-01-30 10:31:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35morg.apache.coyote.http11.Http11NioProtocol[0;39m [36mStarting ProtocolHandler ["http-nio-8888"]
+[0;39m[31m2024-01-30 10:31:37[0;39m [34mINFO [0;39m [31m[restartedMain][0;39m [1;35mcom.msb.hjycommunity.HjyCommunityApplication[0;39m [36mStarted HjyCommunityApplication in 3.722 seconds (JVM running for 4.703)
+[0;39m[31m2024-01-30 10:32:02[0;39m [34mINFO [0;39m [31m[http-nio-8888-exec-1][0;39m [1;35mo.a.c.c.C.[Tomcat].[localhost].[/hejiayun][0;39m [36mInitializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[31m2024-01-30 10:39:41[0;39m [34mINFO [0;39m [31m[SpringApplicationShutdownHook][0;39m [1;35mcom.alibaba.druid.pool.DruidDataSource[0;39m [36m{dataSource-1} closing ...
+[0;39m[31m2024-01-30 10:39:41[0;39m [34mINFO [0;39m [31m[SpringApplicationShutdownHook][0;39m [1;35mcom.alibaba.druid.pool.DruidDataSource[0;39m [36m{dataSource-1} closed
+[0;39m
