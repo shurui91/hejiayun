@@ -21,7 +21,7 @@ public class SysAreaServiceImpl implements SysAreaService {
         //findAll = SELECT code,name,parentId from sys_area;
         List<SysArea> list = sysAreaMapper.findAll();
         System.out.println(list.toString());
-        return list.stream()    //把集合转换为流
+        return list.stream()    //把list转换为流
                 .filter(area -> area.getParentCode().equals(0))  //筛选pid为0的area根节点对象
                 .map(area -> { // 从SysArea转换到SysAreaDto
                     SysAreaDto sysAreaDto = new SysAreaDto();
