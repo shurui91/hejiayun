@@ -26,7 +26,7 @@ public class LoginController {
      * @param loginBody
      * @return
      */
-    @PostMapping("/user/login")
+    //@PostMapping("/user/login")
     public ResponseResult login(@RequestBody LoginBody loginBody) {
         // 生成令牌
         String token = loginService.login(loginBody.getUserName(), loginBody.getPassword(), loginBody.getCode(), loginBody.getUuid());

@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.Objects;
+import java.util.*;
 
 /**
  * 实现从数据库根据**用户名**检索用户信息
@@ -32,8 +32,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             throw new RuntimeException("用户名或密码错误");
         }
 
-        //todo 查询用户权限信息 userid roleid
-
+        //todo 查询用户权限信息,添加到LoginUser中,这里先写死,封装到list集合
+        List<String> list = new ArrayList<>(Arrays.asList("test"));
         //方法的返回值是 UserDetails接口类型,需要返回自定义的实现类
         return new LoginUser(user);
     }

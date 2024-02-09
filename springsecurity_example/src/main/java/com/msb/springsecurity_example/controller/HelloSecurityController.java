@@ -16,7 +16,7 @@ public class HelloSecurityController {
      * 在方法执行之后进行权限校验 @PostAuthorize()
      */
     @RequestMapping("/hello")
-    @PreAuthorize("hasAuthority('system:user:list')")   // 检查调用者是否具有指定权限
+    @PreAuthorize("hasAuthority('test')")   // 检查调用者是否具有指定权限
     public String hello() {
         return "Hello from Spring Security /hello!";
     }

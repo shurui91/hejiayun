@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-@MapperScan("com.msb.springsecurity_example.mapper")
+@MapperScan("com.msb.springsecurity_example.**.mapper")
 public class SpringsecurityExampleApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(SpringsecurityExampleApplication.class, args);
