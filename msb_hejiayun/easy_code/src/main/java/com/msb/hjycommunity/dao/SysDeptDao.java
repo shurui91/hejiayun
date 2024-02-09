@@ -1,6 +1,6 @@
 package com.msb.hjycommunity.dao;
 
-import com.msb.hjycommunity.dao.entity.SysDept;
+import com.msb.hjycommunity.entity.SysDept;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.data.domain.Pageable;
 import java.util.List;
