@@ -15,7 +15,7 @@ public class LoginController {
     @Autowired
     private LoginService loginService;
 
-    // @PostMapping("/user/login")
+    @PostMapping("/user/login")
     public ResponseResult login(@RequestBody SysUser sysUser) {
         // 登录
         return loginService.login(sysUser);

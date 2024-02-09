@@ -24,7 +24,7 @@ import java.util.Objects;
 @Component
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
     @Autowired
-    RedisCache redisCache;
+    private RedisCache redisCache;
 
     /**
      * 封装过滤器的执行逻辑
