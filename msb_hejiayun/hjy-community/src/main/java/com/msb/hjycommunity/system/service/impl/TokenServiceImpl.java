@@ -59,7 +59,7 @@ public class TokenServiceImpl implements TokenService {
         //创建token, 将用户唯一标识 通过setClaims方法 保存到token中
         String token = Jwts.builder()
                 .setClaims(claims)
-                .signWith(SignatureAlgorithm.HS512, secret).compact();
+                .signWith(SignatureAlgorithm.HS256, secret).compact();
         return token;
     }
 
@@ -67,7 +67,7 @@ public class TokenServiceImpl implements TokenService {
     public void refreshToken(LoginUser loginUser) {
         loginUser.setLoginTime(System.currentTimeMillis());
         // 过期时间30分钟
-        loginUser.setExpireTime(loginUser.getLoginTime() + expireTime);
+        loginUser.setExpireTime(loginUser.getLoginTime() + expireTime * MILLIS_MINUTE);
         // 根据uuid将loginUser缓存
         String userKey = getTokenKey(loginUser.getToken());
         redisCache.setCacheObject(userKey, loginUser, expireTime, TimeUnit.MINUTES);
