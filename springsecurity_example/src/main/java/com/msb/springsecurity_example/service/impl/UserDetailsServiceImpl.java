@@ -3,6 +3,7 @@ package com.msb.springsecurity_example.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.msb.springsecurity_example.entity.LoginUser;
 import com.msb.springsecurity_example.entity.SysUser;
+import com.msb.springsecurity_example.mapper.MenuMapper;
 import com.msb.springsecurity_example.mapper.SysUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -20,6 +21,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     private SysUserMapper userMapper;
 
+    @Autowired
+    private MenuMapper menuMapper;
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         //根据用户名查询用户信息
@@ -33,8 +37,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         }
 
         //todo 查询用户权限信息,添加到LoginUser中,这里先写死,封装到list集合
-        List<String> list = new ArrayList<>(Arrays.asList("test"));
+        //List<String> list = new ArrayList<>(Arrays.asList("test"));
+        List<String> list = menuMapper.selectPermsByUserId(user.getUserId());
         //方法的返回值是 UserDetails接口类型,需要返回自定义的实现类
-        return new LoginUser(user);
+        return new LoginUser(user, list);
     }
 }

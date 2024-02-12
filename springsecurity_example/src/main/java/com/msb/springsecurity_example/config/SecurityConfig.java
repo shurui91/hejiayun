@@ -87,6 +87,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authenticationEntryPoint(authenticationEntryPoint)
                 //配置授权失败处理器 403
                 .accessDeniedHandler(accessDeniedHandler);
-
     }
 }

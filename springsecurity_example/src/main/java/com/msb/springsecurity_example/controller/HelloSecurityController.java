@@ -15,12 +15,14 @@ public class HelloSecurityController {
      * hasAuthority('test') 检查用户是否具有test的权限
      * 在方法执行之后进行权限校验 @PostAuthorize()
      */
+    //拥有system:user:list权限才能访问
     @RequestMapping("/hello")
-    @PreAuthorize("hasAuthority('test')")   // 检查调用者是否具有指定权限
+    @PreAuthorize("hasAuthority('system:user:list')")
     public String hello() {
         return "Hello from Spring Security /hello!";
     }
 
+    //拥有system:role:list 才能访问
     @RequestMapping("/ok")
     @PreAuthorize("hasAnyAuthority('admin', 'system:role:list', 'system:menu:list')")   // 检查调用者是否具有指定权限
     public String ok() {
@@ -36,14 +38,14 @@ public class HelloSecurityController {
     @RequestMapping("/level1")
     //当前用户是common角色,并且具有system:role:list或者system:user:list
     @PreAuthorize("hasRole('admin') AND hasAnyAuthority('system:role:list','system:user:list')")
-    public String level1(){
+    public String level1() {
         return "level1 page";
     }
 
     @RequestMapping("/level2")
     //当前用户拥有admin或者common角色,或者具有system:role:list权限
     @PreAuthorize("hasAnyRole('admin','common') OR hasAuthority('system:role:list')")
-    public String level2(){
+    public String level2() {
         return "level2 page";
     }
 
