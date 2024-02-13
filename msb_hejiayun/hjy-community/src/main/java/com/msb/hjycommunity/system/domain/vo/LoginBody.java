@@ -7,7 +7,7 @@ public class LoginBody {
     /**
      * 用户名
      */
-    private String userName;
+    private String username;
 
     /**
      * 用户密码
@@ -24,12 +24,12 @@ public class LoginBody {
      */
     private String uuid = "";
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {

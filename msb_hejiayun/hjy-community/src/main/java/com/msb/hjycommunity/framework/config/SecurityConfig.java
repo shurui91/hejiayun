@@ -74,6 +74,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 // 对于登录login 验证码captchaImage 允许匿名访问
                 .mvcMatchers("/login", "/captchaImage").anonymous()
+                .mvcMatchers("/exportExcel/exportCommunityExcel").anonymous()
                 // 除上面外的所有请求全部需要鉴权认证
                 .anyRequest().authenticated();
         http

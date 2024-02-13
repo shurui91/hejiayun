@@ -47,7 +47,7 @@ public class SysLoginController {
     @PostMapping("/login")
     public ChainedMap login(@RequestBody LoginBody loginBody) {
         //生成令牌
-        String token = loginService.login(loginBody.getUserName(), loginBody.getPassword(),
+        String token = loginService.login(loginBody.getUsername(), loginBody.getPassword(),
                 loginBody.getCode(), loginBody.getUuid());
         return ChainedMap.create().set("token", token);
     }

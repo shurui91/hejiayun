@@ -20,6 +20,7 @@ import java.util.List;
  * @since 2024-01-26 11:12:24
  */
 public class SysUser extends BaseEntity {
+    private static final long serialVersionUID = -2243015112391000399L;
     /**
      * 用户ID
      */
