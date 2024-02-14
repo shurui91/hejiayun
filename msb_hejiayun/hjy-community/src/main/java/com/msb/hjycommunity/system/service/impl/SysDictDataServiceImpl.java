@@ -28,21 +28,19 @@ public class SysDictDataServiceImpl implements SysDictDataService {
      * @return 字典数据集合信息
      */
     @Override
-    public List<SysDictData> selectDictDataList(SysDictData dictData)
-    {
+    public List<SysDictData> selectDictDataList(SysDictData dictData) {
         return dictDataMapper.selectDictDataList(dictData);
     }
 
     /**
      * 根据字典类型和字典键值查询字典数据信息
      *
-     * @param dictType 字典类型
+     * @param dictType  字典类型
      * @param dictValue 字典键值
      * @return 字典标签
      */
     @Override
-    public String selectDictLabel(String dictType, String dictValue)
-    {
+    public String selectDictLabel(String dictType, String dictValue) {
         return dictDataMapper.selectDictLabel(dictType, dictValue);
     }
 
@@ -53,8 +51,7 @@ public class SysDictDataServiceImpl implements SysDictDataService {
      * @return 字典数据
      */
     @Override
-    public SysDictData selectDictDataById(Long dictCode)
-    {
+    public SysDictData selectDictDataById(Long dictCode) {
         return dictDataMapper.selectDictDataById(dictCode);
     }
 
@@ -65,9 +62,7 @@ public class SysDictDataServiceImpl implements SysDictDataService {
      * @return 结果
      */
     @Override
-    public int deleteDictDataByIds(Long[] dictCodes)
-    {
-
+    public int deleteDictDataByIds(Long[] dictCodes) {
         return dictDataMapper.deleteDictDataByIds(dictCodes);
     }
 
@@ -78,8 +73,7 @@ public class SysDictDataServiceImpl implements SysDictDataService {
      * @return 结果
      */
     @Override
-    public int insertDictData(SysDictData dictData)
-    {
+    public int insertDictData(SysDictData dictData) {
         return dictDataMapper.insertDictData(dictData);
     }
 
@@ -90,8 +84,7 @@ public class SysDictDataServiceImpl implements SysDictDataService {
      * @return 结果
      */
     @Override
-    public int updateDictData(SysDictData dictData)
-    {
+    public int updateDictData(SysDictData dictData) {
         return dictDataMapper.updateDictData(dictData);
     }
 
