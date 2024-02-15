@@ -6,6 +6,7 @@ import com.msb.hjycommunity.common.core.page.PageResult;
 import com.msb.hjycommunity.common.utils.SecurityUtils;
 import com.msb.hjycommunity.system.domain.SysDictData;
 import com.msb.hjycommunity.system.service.SysDictDataService;
+import com.msb.hjycommunity.system.service.SysDictTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,6 +20,9 @@ import java.util.List;
 public class SysDictDataController extends BaseController {
     @Autowired
     private SysDictDataService dictDataService;
+
+    @Autowired
+    private SysDictTypeService dictTypeService;
 
     /**
      * 查询字典数据列表
@@ -43,7 +47,7 @@ public class SysDictDataController extends BaseController {
      */
     @GetMapping(value = "/type/{dictType}")
     public BaseResponse getDictByType(@PathVariable String dictType) {
-        return BaseResponse.success(dictDataService.selectDictDataByType(dictType));
+        return BaseResponse.success(dictTypeService.selectDictDataByType(dictType));
     }
 
     /**
