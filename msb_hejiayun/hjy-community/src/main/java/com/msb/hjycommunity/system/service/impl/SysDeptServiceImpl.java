@@ -89,12 +89,12 @@ public class SysDeptServiceImpl implements SysDeptService {
      */
     public void updateDeptChildren(Long deptId, String newAncestors, String oldAncestors) {
         List<SysDept> childrenDept = deptMapper.selectChildrenDeptById(deptId);
-        if (childrenDept.size() > 0) {
-            for (SysDept child : childrenDept) {
-                child.setAncestors(child.getAncestors().replace(oldAncestors, newAncestors));
-            }
+        for (SysDept child : childrenDept) {
+            child.setAncestors(child.getAncestors().replace(oldAncestors, newAncestors));
         }
-        deptMapper.updateDeptChildren(childrenDept);
+        if (childrenDept.size() > 0) {
+            deptMapper.updateDeptChildren(childrenDept);
+        }
     }
 
     /**

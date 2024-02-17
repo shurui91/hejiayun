@@ -6,10 +6,13 @@ import com.msb.hjycommunity.common.core.domain.BaseResponse;
 import com.msb.hjycommunity.common.utils.SecurityUtils;
 import com.msb.hjycommunity.system.domain.SysDept;
 import com.msb.hjycommunity.system.service.SysDeptService;
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -95,5 +98,22 @@ public class SysDeptController extends BaseController {
     public BaseResponse treeSelect(SysDept sysDept) {
         List<SysDept> sysDepts = deptService.selectDeptList(sysDept);
         return BaseResponse.success(deptService.buildDeptTreeSelect(sysDepts));
+    }
+
+    /**
+     * 查询部门列表 (排除节点)
+     */
+    @GetMapping("/list/exclude/{deptId}")
+    public BaseResponse excludeChild(@PathVariable(value = "deptId", required = false) Long deptId) {
+        List<SysDept> deptList = deptService.selectDeptList(new SysDept());
+        Iterator<SysDept> iterator = deptList.iterator();
+        while (iterator.hasNext()) {
+            SysDept d = (SysDept) iterator.next();
+            if (d.getDeptId().intValue() == deptId ||
+                    ArrayUtils.contains(StringUtils.split(d.getAncestors(), ","), deptId + "")) {
+                iterator.remove();
+            }
+        }
+        return BaseResponse.success(deptList);
     }
 }
