@@ -1,10 +1,13 @@
 package com.msb.hjycommunity.system.domain.vo;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 import java.util.List;
 
 /**
  * 路由配置信息VO
  */
+@JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class RouterVo {
     /**
      * 路由名字
