@@ -24,25 +24,35 @@ public class BaseEntity implements Serializable {
     @TableField(exist = false)
     private Map<String, Object> params;
 
-    /* 创建者 */
+    /**
+     * 创建者
+     */
     @TableField(fill = FieldFill.INSERT) // 标明该字段在什么时候需要被填充
     private String createBy;
 
-    /* 创建时间 */
+    /**
+     * 创建时间
+     */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @TableField(fill = FieldFill.INSERT)
     private Date createTime;
 
-    /* 更新者 */
+    /**
+     * 更新者
+     */
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private String updateBy;
 
-    /* 更新时间 */
+    /**
+     * 更新时间
+     */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Date updateTime;
 
-    /* 备注 */
+    /**
+     * 备注
+     */
     private String remark;
 
     public String getSearchValue() {
