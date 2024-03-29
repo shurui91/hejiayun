@@ -21,10 +21,10 @@ class SpringsecurityExampleApplicationTests {
      */
     @Test
     public void testCreateJWT() {
-        JwtBuilder builder = Jwts.builder().
-                setId("9527")                        // 唯一ID
-                .setSubject("hejiayun_community")    // 主体内容
-                .setIssuedAt(new Date())            // 签约时间
+        JwtBuilder builder = Jwts.builder()
+                .setId("9527")                          // 唯一ID
+                .setSubject("hejiayun_community")       // 主体内容
+                .setIssuedAt(new Date())                // 签约时间
                 .signWith(SignatureAlgorithm.HS256, "mashibing"); //
         // 设置签名，HS256，并设置secretkey
 
