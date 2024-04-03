@@ -6,7 +6,6 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -16,6 +15,7 @@ import java.util.stream.Collectors;
  */
 @Data
 public class LoginUser implements UserDetails {
+    private static final long serialVersionUID = -5481973912525311996L;
     private SysUser sysUser;
     // 存储权限的集合
     private List<String> permissions;

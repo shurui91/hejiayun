@@ -30,9 +30,9 @@ public class LoginController {
     public ResponseResult login(@RequestBody LoginBody loginBody) {
         // 生成令牌
         String token = loginService.login(loginBody.getUserName(), loginBody.getPassword(), loginBody.getCode(), loginBody.getUuid());
-        HashMap<String,Object> map = new HashMap<>();
-        map.put("token",token);
-        return new ResponseResult(200,"登录成功",map);
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("token", token);
+        return new ResponseResult(200, "登录成功", map);
     }
 
     /**

@@ -26,13 +26,14 @@ public class JwtUtil {
     // 设置秘钥明文，这里是有长度规定的，6位
     public static final String JWT_KEY = "msbhjy";
 
-    public static String getUUID(){
+    public static String getUUID() {
         String token = UUID.randomUUID().toString().replaceAll("-", "");
         return token;
     }
 
     /**
      * 生成jtw
+     *
      * @param subject token中要存放的数据（json格式）
      * @return
      */
@@ -42,8 +43,9 @@ public class JwtUtil {
     }
 
     /**
-     * 生成jtw
-     * @param subject token中要存放的数据（json格式）
+     * 生成JWT
+     *
+     * @param subject   token中要存放的数据（json格式）
      * @param ttlMillis token超时时间
      * @return
      */
@@ -57,8 +59,8 @@ public class JwtUtil {
         SecretKey secretKey = generalKey();
         long nowMillis = System.currentTimeMillis();
         Date now = new Date(nowMillis);
-        if(ttlMillis==null){
-            ttlMillis=JwtUtil.JWT_TTL;
+        if (ttlMillis == null) {
+            ttlMillis = JwtUtil.JWT_TTL;
         }
         long expMillis = nowMillis + ttlMillis;
         Date expDate = new Date(expMillis);
@@ -73,6 +75,7 @@ public class JwtUtil {
 
     /**
      * 创建token
+     *
      * @param id
      * @param subject
      * @param ttlMillis
@@ -91,6 +94,7 @@ public class JwtUtil {
 
     /**
      * 生成加密后的秘钥 secretKey
+     *
      * @return
      */
     public static SecretKey generalKey() {
@@ -100,7 +104,7 @@ public class JwtUtil {
     }
 
     /**
-     * 解析
+     * 解析JWT
      *
      * @param jwt
      * @return

@@ -5,23 +5,24 @@ import com.msb.springsecurity_example.entity.LoginUser;
 import com.msb.springsecurity_example.entity.SysUser;
 import com.msb.springsecurity_example.mapper.MenuMapper;
 import com.msb.springsecurity_example.mapper.SysUserMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import javax.annotation.Resource;
+import java.util.List;
+import java.util.Objects;
 
 /**
  * 实现从数据库根据**用户名**检索用户信息
  */
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
-    @Autowired
+    @Resource
     private SysUserMapper userMapper;
 
-    @Autowired
+    @Resource
     private MenuMapper menuMapper;
 
     @Override

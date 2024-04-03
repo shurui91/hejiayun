@@ -8,14 +8,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @SpringBootTest
 public class MapperTest {
-    @Autowired
+    @Resource
     private SysUserMapper userMapper;
 
-    @Autowired
+    @Resource
     private RoleMapper roleMapper;
 
     @Autowired
