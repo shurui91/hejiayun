@@ -35,10 +35,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             throw new UsernameNotFoundException("登录用户: " + username + " 不存在");
         } else if (UserStatus.DELETED.getCode().equals(user.getDelFlag())) {
             log.info("登录用户:{} 已被删除", username);
-            throw new BaseException("对不起,您的账号: " + username + " 以被删除");
+            throw new BaseException("对不起,您的账号: " + username + " 已被删除");
         } else if (UserStatus.DISABLE.getCode().equals(user.getStatus())) {
             log.info("登录用户:{} 已被停用", username);
-            throw new BaseException("对不起,您的账号: " + username + " 以被停用");
+            throw new BaseException("对不起,您的账号: " + username + " 已被停用");
         }
         //return new LoginUser(user);
         return createLoginUser(user);
