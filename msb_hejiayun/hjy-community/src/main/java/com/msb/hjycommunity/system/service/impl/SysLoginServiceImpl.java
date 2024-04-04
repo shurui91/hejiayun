@@ -2,9 +2,8 @@ package com.msb.hjycommunity.system.service.impl;
 
 import com.msb.hjycommunity.common.constant.Constants;
 import com.msb.hjycommunity.common.constant.RedisCache;
-import com.msb.hjycommunity.common.core.exception.BaseException;
 import com.msb.hjycommunity.common.core.exception.UserPasswordNotMatchException;
-import com.msb.hjycommunity.framework.security.KaptchaNotMatchException;
+import com.msb.hjycommunity.framework.security.CaptchaNotMatchException;
 import com.msb.hjycommunity.system.domain.LoginUser;
 import com.msb.hjycommunity.system.service.SysLoginService;
 import com.msb.hjycommunity.system.service.TokenService;
@@ -37,11 +36,13 @@ public class SysLoginServiceImpl implements SysLoginService {
     @Override
     public String login(String username, String password, String code, String uuid) {
         //1.从redis中获取验证码,判断是否正确
+        // captcha_codes:bc2cf6169b74413599e979abaf88215f
         String verifyKey = Constants.CAPTCHA_CODE_KEY + uuid;
         String captcha = redisCache.getCacheObject(verifyKey);
+        // 无论是否正确都删除验证码
         redisCache.deleteObject(verifyKey);
         if (captcha == null || !code.equalsIgnoreCase(captcha)) {
-            throw new KaptchaNotMatchException("验证码错误!");
+            throw new CaptchaNotMatchException("验证码错误!");
         }
 
         //2.进行用户认证
@@ -57,7 +58,7 @@ public class SysLoginServiceImpl implements SysLoginService {
         //3. 获取经过身份验证的用户的主体信息
         LoginUser loginUser = (LoginUser) authentication.getPrincipal();
 
-        //4.调用TokenService 生成token
+        //4.调用TokenService 生成JWT token
         return tokenService.createToken(loginUser);
     }
 }
