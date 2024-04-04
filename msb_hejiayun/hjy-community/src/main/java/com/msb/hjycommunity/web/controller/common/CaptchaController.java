@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 
 /**
  * 获取验证码
@@ -38,6 +40,11 @@ public class CaptchaController {
 
         //保存到redis
         redisTemplate.opsForValue().set(key, code, Duration.ofMinutes(10));
-        return ChainedMap.create().set("uuid", uuid).set("img", specCaptcha.toBase64());
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String dateStr = sdf.format(date);
+        return ChainedMap.create().set("timestamp", dateStr).set("uuid", uuid).set(
+                "img",
+                specCaptcha.toBase64());
     }
 }
