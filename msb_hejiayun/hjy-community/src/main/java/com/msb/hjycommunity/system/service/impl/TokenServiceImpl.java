@@ -28,13 +28,19 @@ public class TokenServiceImpl implements TokenService {
     private static final Long MILLIS_MINUTE_TEN = 20 * 60 * 1000L;
     @Autowired
     private RedisCache redisCache;
-    // 令牌自定义标识
+    /**
+     * 令牌自定义标识
+     */
     @Value("${token.header:}")
     private String header;
-    // 令牌秘钥
+    /**
+     * 令牌秘钥
+     */
     @Value("${token.secret:}")
     private String secret;
-    // 令牌有效期（默认30分钟）
+    /**
+     * 令牌有效期（默认30分钟）
+     */
     @Value("${token.expireTime:}")
     private int expireTime;
 
