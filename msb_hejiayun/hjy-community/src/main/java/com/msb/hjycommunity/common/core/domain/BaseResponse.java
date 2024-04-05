@@ -11,6 +11,7 @@ public class BaseResponse<T> implements Serializable {
     private static final long serialVersionUID = 1L;
     /**
      * 响应状态码
+     * 这里修改成int类型，是因为前端接收到的是int类型的code，如果是String类型，前端接收到的是字符串，会有问题
      */
     //private String code;
     private int code;
@@ -98,10 +99,13 @@ public class BaseResponse<T> implements Serializable {
         this.msg = msg;
     }
 
+    public int getCode() {
+        return code;
+    }
+
     public void setCode(int code) {
         this.code = code;
     }
-
 
     public T getData() {
         return data;
