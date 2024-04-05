@@ -2,12 +2,14 @@ package com.msb.hjycommunity.system.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.msb.hjycommunity.system.domain.SysMenu;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
 /**
  * 菜单表数据层
  */
+@Mapper
 public interface SysMenuMapper extends BaseMapper<SysMenu> {
     /**
      * 根据用户id查询菜单权限
