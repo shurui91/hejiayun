@@ -8,7 +8,9 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Map;
 
-// 基类
+/**
+ * Entity基类
+ */
 public class BaseEntity implements Serializable {
 
     private static final long serialVersionUID = 4494898107172639564L;
