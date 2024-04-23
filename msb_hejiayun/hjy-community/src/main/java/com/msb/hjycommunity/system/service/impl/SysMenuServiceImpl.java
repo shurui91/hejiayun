@@ -107,11 +107,11 @@ public class SysMenuServiceImpl implements SysMenuService {
             //设置是否隐藏 ,隐藏后侧边栏不会出现
             routerVo.setHidden("1".equals(menu.getVisible()));
             //基础元素
-            routerVo.setMeta(new MetaVo(menu.getMenuName(),menu.getIcon(),"1".equals(menu.getIsCache())));
+            routerVo.setMeta(new MetaVo(menu.getMenuName(), menu.getIcon(), "1".equals(menu.getIsCache())));
             //子菜单
             List<SysMenu> subMenuList = menu.getChildren();
             //子菜单不为空 && 类型为M 菜单类型（目录 顶级父菜单）
-            if(!subMenuList.isEmpty() && subMenuList.size() > 0 && UserConstants.TYPE_DIR.equals(menu.getMenuType())){
+            if (!subMenuList.isEmpty() && subMenuList.size() > 0 && UserConstants.TYPE_DIR.equals(menu.getMenuType())) {
                 routerVo.setAlwaysShow(true);   //下面有子路由
                 routerVo.setRedirect("noRedirect"); //在导航栏中不可点击
                 routerVo.setChildren(buildMenus(subMenuList)); //递归设置子菜单
@@ -150,6 +150,7 @@ public class SysMenuServiceImpl implements SysMenuService {
 
     /**
      * 获取组件信息
+     *
      * @param menu
      * @return: 组件信息
      */
